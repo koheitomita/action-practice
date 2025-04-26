@@ -19,3 +19,5 @@ jobs:
         run: ls
       - name: Kohei add 2 pwd
         run: pwd
+      - name: りさぴょんコール
+        run: ./test.sh
