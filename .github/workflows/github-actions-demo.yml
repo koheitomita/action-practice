@@ -1,5 +1,7 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+env:
+  lisa: りさぴょん
 on:
   push:
     branches:
@@ -10,6 +12,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-24.04
     steps:
+      - name: lisa
+        run: echo "${{ lisa }}"
       - name: Kohei add ls
         run: ls
       - name: Kohei add 2 pwd
