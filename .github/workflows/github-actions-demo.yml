@@ -7,7 +7,7 @@ on:
       - 'releases/**'
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Kohei add ls
         run: ls
