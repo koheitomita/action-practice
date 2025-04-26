@@ -19,5 +19,7 @@ jobs:
         run: ls
       - name: Kohei add 2 pwd
         run: pwd
+      - name: Make the script files executable
+        run: chmod +x test.sh
       - name: りさぴょんコール
         run: ./test.sh
